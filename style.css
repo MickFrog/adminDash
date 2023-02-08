@@ -7,6 +7,7 @@
 body {
     margin: 0px;
     font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
     background: radial-gradient(
         farthest-corner at top left, #3498db, #9b59b6
     );
@@ -43,7 +44,6 @@ img {
     flex-flow: column wrap;
     padding: 1rem 2rem;
     gap: 2rem;
-    font-size: 1.5rem;
 }
 
 .dash-logo > img, .logo {
@@ -92,6 +92,18 @@ img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+
+.welcome {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.big-logo {
+    height: 4rem;
+    width: 4rem;
 }
 
 .activities {
