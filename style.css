@@ -22,7 +22,7 @@ img {
 .dash-logo > img, .logo {
     width: 3rem;
     height: 3rem;
-    filter: brightness(0) invert(0.8);
+    filter: none;
 }
 
 .container {
