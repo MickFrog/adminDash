@@ -61,11 +61,23 @@ img {
 .header {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    padding: 15px;
+    padding: 1rem 2rem;
 
     display: flex;
     flex-flow: column wrap;
 
+}
+
+.HUpper > div {
+    display: flex;
+}
+
+.searchBar {
+    margin-left: 2rem;
+    width: 40%;
+    height: 2rem;
+    background-color: #6fffed;
+    border-radius: 25px;
 }
 
 .activities {
