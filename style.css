@@ -92,6 +92,8 @@ img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
 .welcome {
@@ -102,8 +104,25 @@ img {
 }
 
 .big-logo {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
+    filter: none;
+}
+
+.btns {    
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+}
+
+.btns > button {
+    width: 10rem;
+    height: 3rem;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 20px;
+    background-color: #6BF178;
+    border: none;
 }
 
 .activities {
