@@ -127,6 +127,7 @@ img {
 }
 
 .activities {
-    /* background-color: blueviolet; */
-    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1.5rem;
 }
