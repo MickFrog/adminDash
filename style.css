@@ -19,12 +19,6 @@ img {
     filter: brightness(0) invert(1);
 }
 
-.dash-logo > img, .logo {
-    width: 3rem;
-    height: 3rem;
-    filter: none;
-}
-
 .container {
     min-height: 100vh;
     display: grid;
@@ -50,6 +44,12 @@ img {
     padding: 1rem 2rem;
     gap: 2rem;
     font-size: 1.5rem;
+}
+
+.dash-logo > img, .logo {
+    width: 3rem;
+    height: 3rem;
+    filter: none;
 }
 
 .userPrefs > p, .settings >p, .dash-logo{
