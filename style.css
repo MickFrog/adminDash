@@ -20,6 +20,10 @@ img {
     filter: brightness(0) invert(1);
 }
 
+p {
+    margin: 0.5rem;
+}
+
 .container {
     min-height: 100vh;
     display: grid;
@@ -130,4 +134,16 @@ img {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 1.5rem;
+}
+
+.menus{
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}
+
+.menus > div{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    padding: 1.5rem;
 }
