@@ -154,3 +154,15 @@ hr {
 
     box-shadow: 10px 5px 5px rgba(202, 0, 0, 0.3);
 }
+
+.trending {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.trends {
+    display: grid;
+
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
