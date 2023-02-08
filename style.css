@@ -52,6 +52,9 @@ hr {
     flex-flow: column wrap;
     padding: 1rem 2rem;
     gap: 2rem;
+    position: fixed;
+    min-height: -webkit-fill-available;
+    margin-bottom: 1.5rem;
 }
 
 .dash-logo > img, .logo {
@@ -70,6 +73,7 @@ hr {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 0.5rem 2rem;
+    grid-column: 2 / 3;
     
     display: grid;
     gap: 1rem;
@@ -138,6 +142,7 @@ hr {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 1.5rem;
+    grid-column: 2 / 3;
 }
 
 .menus{
