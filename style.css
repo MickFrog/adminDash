@@ -40,6 +40,7 @@ hr {
     font-size: 2rem;
     font-weight: 700;
     color: #6fffed;
+    text-align: center;
 }
 
 .side-dash {
@@ -54,7 +55,7 @@ hr {
     gap: 2rem;
     position: fixed;
     min-height: -webkit-fill-available;
-    margin-bottom: 1.5rem;
+    margin-bottom: 15px;
 }
 
 .dash-logo > img, .logo {
@@ -148,7 +149,8 @@ hr {
 .menus{
     display: grid;
     gap: 1rem;
-    text-align: center;
+    font-size:large;
+    /* text-align: center; */
 }
 
 .menus > div{
@@ -169,6 +171,7 @@ hr {
 
     grid-template-columns: 1fr 3fr;
     align-items: center;
+    gap: 1rem;
 }
 
 .projects {
