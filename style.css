@@ -144,6 +144,13 @@ hr {
     grid-template-columns: 3fr 1fr;
     gap: 1.5rem;
     grid-column: 2 / 3;
+    align-items: start;
+}
+
+.announce {
+    align-self: start;
+    position: sticky;
+    top: 0.5rem;
 }
 
 .menus{
