@@ -169,11 +169,12 @@ hr {
 
 .projects {
     display: grid;
-    grid-template: 1fr 1fr 1fr / repeat(auto-fill, minmax(10rem, 15rem));
+    grid-template: 1fr 1fr 1fr / repeat(auto-fill, minmax(10rem, 20rem));
     gap: 1.5rem;
 }
 
 .pjt {
     background-color: white;
     border-radius: 20px;
+    padding: 1.5rem;
 }
