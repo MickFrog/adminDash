@@ -88,6 +88,12 @@ img {
     border-radius: 25px;
 }
 
+.HLower {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .activities {
     /* background-color: blueviolet; */
     
