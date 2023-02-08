@@ -166,3 +166,14 @@ hr {
     grid-template-columns: 1fr 3fr;
     align-items: center;
 }
+
+.projects {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / repeat(auto-fill, minmax(10rem, 15rem));
+    gap: 1.5rem;
+}
+
+.pjt {
+    background-color: white;
+    border-radius: 20px;
+}
