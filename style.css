@@ -84,7 +84,7 @@ img {
     margin-left: 2rem;
     width: 40rem;
     height: 2rem;
-    background-color: #6fffed;
+    background-color:rgba(255, 140, 111, 0.4);
     border-radius: 25px;
 }
 
@@ -120,8 +120,9 @@ img {
     height: 3rem;
     font-family: inherit;
     font-size: inherit;
+    color: inherit;
     border-radius: 20px;
-    background-color: #6BF178;
+    background-color: #111827;
     border: none;
 }
 
