@@ -31,7 +31,7 @@ hr {
 .container {
     min-height: 100vh;
     display: grid;
-    grid-template: 1fr 7fr / 1fr 4fr;
+    grid-template: 1fr 7fr / minmax(25rem, 1fr) 4fr;
     gap: 1rem;
     padding: 15px;
 }
@@ -150,7 +150,6 @@ hr {
     display: grid;
     gap: 1rem;
     font-size:large;
-    /* text-align: center; */
 }
 
 .menus > div{
