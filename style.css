@@ -68,6 +68,10 @@ hr {
     align-items: center;
 }
 
+.userPrefs > p:hover, .settings > p:hover {
+    color: #DC965A !important;
+}
+
 .header {
     background-color: #0D0106;
     border-radius: 20px;
@@ -137,6 +141,10 @@ hr {
     border: none;
 }
 
+.btns > button:hover {
+    background-color: #7EA16B;
+}
+
 .activities {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -182,6 +190,11 @@ hr {
     height: 4rem;
     width: 4rem;
     filter: none;
+}
+
+.trend-logo:hover {
+    scale: 1.2;
+    transition: all 0.4s ease-in-out;
 }
 
 .projects {
