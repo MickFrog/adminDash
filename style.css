@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
 }
 
 body {
@@ -194,7 +195,6 @@ hr {
 
 .trend-logo:hover {
     scale: 1.2;
-    transition: all 0.4s ease-in-out;
 }
 
 .projects {
@@ -207,6 +207,10 @@ hr {
     background-color: #E6AF2E;
     border-radius: 20px;
     padding: 1.5rem;
+}
+
+.pjt:hover {
+    scale:1.05
 }
 
 .pjt > p {
